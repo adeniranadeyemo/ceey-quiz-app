@@ -42,7 +42,7 @@ nav{
     align-items: center;
     height: 75px;
    /* background: var(--navColor); */
-   background: transparent;
+   background: var(--bgColor);
     padding: 20px;
     border-bottom:1px solid var(--borderButtom);
   
@@ -109,15 +109,7 @@ background:var(--secColor) ;
 color: var(--textColor2);
     border: 1px solid var(--secColor);
 }
-/* .outlineBtn{
-    background: transparent;
-    padding: 10px 40px;
-    margin-top: 2rem;
-        border: 1px solid var(--pryColor);
-        color: var(--textColor);
-        transition: 2s ease-in-out;
-        border-radius: 20px;
-} */
+
 
 .moon{
     font-size: 1.5rem;
@@ -127,8 +119,6 @@ color: var(--textColor2);
 }
 .sun {
         font-size: 1.5rem;
-        /* color: var(--pryColor); */
-color: white;
         cursor: pointer;
         z-index: 1;
 }
@@ -138,7 +128,6 @@ color: white;
 .quiz-box{
     padding: 20px;
     margin: 100px auto;
-    /* margin-top: 3rem; */
     background: var(--beigeColor);
     max-width: 600px;
     /* max-height: 600px; */
@@ -174,9 +163,15 @@ color: white;
     color: var(--textColor);
 }
 .timer-icon{
+    /* width: 15px; */
     vertical-align: middle;
-    color: var(--textColor);
+    /* color: red; */
+
+    /* fill: red; */
 }
+/* .timer-icon path{
+        fill: red
+} */
 .question-number{
     padding-bottom: 10px;
     line-height: 25px;
